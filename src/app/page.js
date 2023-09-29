@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex gap-3">
-          <div className="w-3/5 py-5 flex flex-col justify-center items-center border drop-shadow-2xl rounded-xl">
+          <div className="w-3/5 py-5 bg-white flex flex-col justify-center items-center border drop-shadow-2xl rounded-xl">
             <div className="flex justify-center items-center gap-3 my-10">
               <button className="border ">Modal</button>
               <button>Popover</button>
@@ -87,7 +87,7 @@ export default function Home() {
               </a>
             </p>
           </div>
-          <div className="w-2/5 p-5 flex flex-col justify-center items-center border drop-shadow-2xl rounded-xl">
+          <div className="w-2/5 p-5 bg-white flex flex-col justify-center items-center border drop-shadow-2xl rounded-xl">
             <div className="mt-8 mb-8 border border-green-500 border-8 text-4xl p-8 bg-green-200 text-green-500 rounded-full">
               100
             </div>
@@ -107,7 +107,7 @@ export default function Home() {
           </div>
         </div>
         <div className="grid grid-cols-3 mt-8 gap-5 ">
-          <div className="flex flex-col p-3 border justify-center items-center">
+          <div className="flex bg-white flex-col p-3 border justify-center items-center drop-shadow-2xl rounded-xl">
             <Link
               href="/"
               className="flex justify-center bg-blue-600 text-white px-5 py-3 mb-5 items-center gap-3 rounded-xl"
@@ -123,7 +123,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col p-3 border justify-center items-center">
+          <div className="flex flex-col bg-white p-3 border justify-center items-center drop-shadow-2xl rounded-xl">
             <div className="flex gap-10 mb-8">
               <Image src={Authjs} width={60} height={60} alt="Logo" />
               <Image src={Prisma} width={60} height={60} alt="Logo" />
@@ -136,7 +136,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col p-3 border justify-center items-center">
+          <div className="flex flex-col bg-white p-3 border justify-center items-center drop-shadow-2xl rounded-xl">
             <div className="grid grid-cols-2 grid-flow-row gap-10 font-semibold mt-5">
               <span>useIntersectionObserver</span>
               <span>nFormatter</span>
